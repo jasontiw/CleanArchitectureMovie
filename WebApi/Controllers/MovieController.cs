@@ -8,11 +8,11 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class MovieApiController : ControllerBase
+    public class MovieController : ControllerBase
     {
         private readonly IMovieService _movieService;
 
-        public MovieApiController(IMovieService movieService)
+        public MovieController(IMovieService movieService)
         {
             _movieService = movieService;
         }

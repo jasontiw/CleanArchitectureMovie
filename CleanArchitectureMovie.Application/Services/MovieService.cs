@@ -1,6 +1,7 @@
-﻿using CleanArchitectureMovie.Application.Interfaces.Repository;
+﻿
 using CleanArchitectureMovie.Application.Interfaces.Services;
 using CleanArchitectureMovie.Domain;
+using Infrastructure.Interfaces.Repository;
 
 namespace CleanArchitectureMovie.Application.Services
 {

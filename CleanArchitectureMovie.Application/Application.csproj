@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CleanArchitectureMovie.Domain\Domain.csproj" />
+    <ProjectReference Include="..\CleanArchitectureMovie.Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
