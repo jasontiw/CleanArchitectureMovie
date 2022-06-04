@@ -1,9 +1,8 @@
 ﻿using CleanArchitectureMovie.Domain;
 
-namespace CleanArchitectureMovie.Application.Interfaces.Services
+namespace CleanArchitectureMovie.Application.Interfaces.Services;
+
+public interface IMovieService
 {
-    public interface IMovieService
-    {
-        List<Movie> GetAll();
-    }
+    List<Movie> GetAll();
 }

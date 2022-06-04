@@ -1,9 +1,8 @@
 ﻿using CleanArchitectureMovie.Domain;
 
-namespace Application.Interfaces.Repository
+namespace Application.Interfaces.Repository;
+
+public interface IMovieRepository
 {
-    public interface IMovieRepository
-    {
-        List<Movie> GetAll();
-    }
+    List<Movie> GetAll();
 }
