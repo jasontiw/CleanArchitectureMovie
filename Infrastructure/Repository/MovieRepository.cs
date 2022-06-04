@@ -1,5 +1,5 @@
-﻿using CleanArchitectureMovie.Domain;
-using Infrastructure.Interfaces.Repository;
+﻿using Application.Interfaces.Repository;
+using CleanArchitectureMovie.Domain;
 
 namespace Infrastructure.Repository
 {

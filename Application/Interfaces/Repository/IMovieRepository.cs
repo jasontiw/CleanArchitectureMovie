@@ -1,6 +1,6 @@
 ﻿using CleanArchitectureMovie.Domain;
 
-namespace Infrastructure.Interfaces.Repository
+namespace Application.Interfaces.Repository
 {
     public interface IMovieRepository
     {
